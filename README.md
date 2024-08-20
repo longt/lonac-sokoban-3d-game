@@ -1,6 +1,6 @@
 # SOKOBAN 3D GAME
 
-Choose language: [Vietnamese](./README-vi.md) | [English](./README-en.md)
+Choose language: [English](./README-en.md) | [中文](./README-zh.md) 
 
 ## Description
 
@@ -20,15 +20,23 @@ Access: https://sokoban-3d.vercel.app/create/
 
 Table of Contents:
 
-1. [Preview Your Level](#1-preview-your-level)
-2. [Change Block Heights](#2-change-block-heights)
-3. [Add Rows and Columns](#3-add-rows-and-columns)
-4. [Add Starting Point](#4-add-starting-point)
-5. [Change Ending Point](#5-change-ending-point)
-6. [Add Regular Cubes](#6-add-regular-cubes)
-7. [Add Climbing Cubes](#7-add-climbing-cubes)
-8. [Add Regular Switches](#8-add-regular-switches)
-9. [Add Hold Switches](#9-add-hold-switches)
+- [SOKOBAN 3D GAME](#sokoban-3d-game)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Contribute a Level](#contribute-a-level)
+    - [Create Your Own Level](#create-your-own-level)
+      - [1. Preview Your Level](#1-preview-your-level)
+      - [2. Change Block Heights](#2-change-block-heights)
+      - [3. Add Rows and Columns](#3-add-rows-and-columns)
+      - [4. Add Starting Point](#4-add-starting-point)
+      - [5. Change Ending Point](#5-change-ending-point)
+      - [6. Add Regular Cubes](#6-add-regular-cubes)
+      - [7. Add Climbing Cubes](#7-add-climbing-cubes)
+      - [8. Add Regular Switches](#8-add-regular-switches)
+      - [9. Add Hold Switches](#9-add-hold-switches)
+  - [How to Add Your Level to the Game](#how-to-add-your-level-to-the-game)
+      - [If you encounter any issues or have trouble following the steps, you can contact me on Facebook: Phan Đức Hải](#if-you-encounter-any-issues-or-have-trouble-following-the-steps-you-can-contact-me-on-facebook-phan-đức-hải)
+  - [Contributors](#contributors)
 
 #### 1. Preview Your Level
 Press `Enter` to preview your level:
