@@ -1,151 +1,111 @@
-# SOKOBAN 3D GAME
+# 推箱子 3D 游戏
 
-Choose language: [English](./README-en.md) | [中文](./README-zh.md) 
+选择语言: [English](./README-en.md) | [中文](./README-zh.md) 
 
-## Description
+## 介绍
 
 https://github.com/zukahai/sokoban-3d/assets/85035951/bc061f7f-dc4e-4c92-b09d-c8b09f2b0672
 
-This is a puzzle game where your task is to move the black cube to the position of the ball. To move the cube, simply press the arrow keys on the keyboard. The game features various puzzle elements such as secret rooms, stairs, doors, keys, etc. You need to find a way to overcome these obstacles to reach the position of the ball.
+这是一款推桶游戏，你的任务是移动黑色立方体找到球的位置，
+要移动立方体，您只需按键盘上的箭头键即可。游戏有许多不同的攻击立方体，例如有几个秘密房间、楼梯、门、钥匙等。你需要找到一种方法来克服这些障碍来找到球的位置。
 
-## Installation
+## 游戏体验
 
-Play directly [here](https://sokoban-3d.vercel.app/)
+访问 [here](https://sokoban-3d.vercel.app/)
 
-## Contribute a Level
+## 创建关卡
 
-### Create Your Own Level
+### 创建自己的关卡
 
-Access: https://sokoban-3d.vercel.app/create/
+访问地址: https://sokoban-3d.vercel.app/create/
 
-Table of Contents:
+目录:
 
-- [SOKOBAN 3D GAME](#sokoban-3d-game)
-  - [Description](#description)
-  - [Installation](#installation)
-  - [Contribute a Level](#contribute-a-level)
-    - [Create Your Own Level](#create-your-own-level)
-      - [1. Preview Your Level](#1-preview-your-level)
-      - [2. Change Block Heights](#2-change-block-heights)
-      - [3. Add Rows and Columns](#3-add-rows-and-columns)
-      - [4. Add Starting Point](#4-add-starting-point)
-      - [5. Change Ending Point](#5-change-ending-point)
-      - [6. Add Regular Cubes](#6-add-regular-cubes)
-      - [7. Add Climbing Cubes](#7-add-climbing-cubes)
-      - [8. Add Regular Switches](#8-add-regular-switches)
-      - [9. Add Hold Switches](#9-add-hold-switches)
-  - [How to Add Your Level to the Game](#how-to-add-your-level-to-the-game)
-      - [If you encounter any issues or have trouble following the steps, you can contact me on Facebook: Phan Đức Hải](#if-you-encounter-any-issues-or-have-trouble-following-the-steps-you-can-contact-me-on-facebook-phan-đức-hải)
-  - [Contributors](#contributors)
+- [推箱子 3D 游戏](#推箱子-3d-游戏)
+  - [介绍](#介绍)
+  - [游戏体验](#游戏体验)
+  - [创建关卡](#创建关卡)
+    - [创建自己的关卡](#创建自己的关卡)
+      - [1. 预览你的关卡](#1-预览你的关卡)
+      - [2. 更改块高度](#2-更改块高度)
+      - [3. 添加行和列](#3-添加行和列)
+      - [4. 添加起点](#4-添加起点)
+      - [5. 设置终点](#5-设置终点)
+      - [6. 添加规则立方体](#6-添加规则立方体)
+      - [7. 添加攀爬立方体](#7-添加攀爬立方体)
+      - [8. 添加常规开关](#8-添加常规开关)
+      - [9. 添加保持开关](#9-添加保持开关)
+  - [如何将你的关卡添加到游戏中](#如何将你的关卡添加到游戏中)
+  - [贡献](#贡献)
 
-#### 1. Preview Your Level
-Press `Enter` to preview your level:
+#### 1. 预览你的关卡
+按 `Enter`（回车键） 进行预览:
 
-For example, with the image below:
+例如：关卡配置如下
 
 ![Create Level 1](./assets/images/create1.png)
 
-After pressing `Enter`, the level will be displayed as follows:
+当按下 `Enter`后, 将预览关卡:
 
 ![Create Level 2](./assets/images/create2.png)
 
-#### 2. Change Block Heights
+#### 2. 更改块高度
 
-Change the block heights by clicking on the cells. The values will range from 0 to 9, representing the heights of the blocks.
+通过单击单元格来更改块高度。值的范围从 0 到 9，代表块的高度。
 
-#### 3. Add Rows and Columns
+#### 3. 添加行和列
 
-- Press ↑ to add a row above
-- Press ↓ to add a row below
-- Press ← to add a column on the left
-- Press → to add a column on the right
+- 按 ↑ 在上方添加一行
+- 按 ↓ 在下面添加一行
+- 按 ← 在左侧添加一列
+- 按 → 在右侧添加一列
 
-#### 4. Add Starting Point
+#### 4. 添加起点
 
-Press `S` and select the cell where you want to place the starting point.
+按“S”并选择要放置起点的单元格。
 
-#### 5. Change Ending Point
+#### 5. 设置终点
 
-Press `K` and select the cell where you want to place the ending point.
+按“K”并选择要放置终点的单元格。
 
-#### 6. Add Regular Cubes
+#### 6. 添加规则立方体
 
-Press `P` and select the cell where you want to place a regular cube.
+按“P”并选择要放置常规立方体的单元格。
+ 
+#### 7. 添加攀爬立方体
 
-#### 7. Add Climbing Cubes
+按“Q”并选择要放置攀爬立方体的单元格。
 
-Press `Q` and select the cell where you want to place a climbing cube.
+#### 8. 添加常规开关
 
-#### 8. Add Regular Switches
-
-Press `B` to display the following:
+按“B”显示以下内容：
 
 ![Add Regular Switch](./assets/images/create3.png)
 
-Click on the green cell to change the depth when the switch is activated. The number 1 means that the designated cell will decrease its depth by 1 when the switch is pressed. The number -1 means that the designated cell will decrease its depth by 1 when the switch is pressed.
+单击绿色单元格可在激活开关时更改深度。数字 1 表示按下开关时指定单元格的深度将减少 1。数字-1表示按下开关时指定单元格的深度将减少1。
+ 
+选择要放置开关的单元格，然后选择开关将激活的单元格。
 
-Select the cell to place the switch, then select the cell that the switch will activate.
+#### 9. 添加保持开关
 
-#### 9. Add Hold Switches
+按“M”并按照与常规开关相同的步骤操作。
 
-Press `M` and follow the same steps as regular switches.
-
-## How to Add Your Level to the Game
-
-You can send me a direct message on Facebook: [Phan Đức Hải](https://www.facebook.com/chiatayde/) and send me the `data.txt` file.
-
-If you have a GitHub account, you can add your level to the game by following these steps:
-
-Go to https://sokoban-3d.vercel.app/create/
-
-Press `H` to create a file named `data.txt`. Copy the content of this file and follow the instructions.
-
-Access: https://github.dev/zukahai/sokoban-3d-game
-
-Wait for the web page to load, it will appear as shown below:
-
-![Contribute Step 1](./assets/images/contribute1.png)
-
-Select `config.js`, inside it is the current number of levels. You need to increase it by 1. For example, if there are currently 21 levels, you need to change it to 22.
+## 如何将你的关卡添加到游戏中
+ 
+选择`config.js`，里面是当前的级别数。您需要将其增加1。例如，如果当前有21级，则需要将其更改为22。
 
 ![Contribute Step 2](./assets/images/contribute2.png)
-
-Continue to select `assets`, wait for it to load, then select `levels`. The window will appear as shown below:
+ 
+继续选择`assets`，等待其加载，然后选择`levels`。该窗口将如下所示：
 
 ![Contribute Step 3](./assets/images/contribute3.png)
 
-Click on the icon as shown below to create a new file named `levelX.json`, where `X` is the number of your level. For example, if you want to create level 22, you need to create the file `level22.json`.
-*Note: The GitHub.dev system loads continuously, so sometimes it may not receive the signal to create the file. You need to be patient and perform this operation multiple times if you don't see the system asking for the file name.*
+单击如下所示的图标创建一个名为“levelX.json”的新文件，其中“X”是您的级别号。例如，如果要创建级别22，则需要创建文件“level22.json”。
 
-Then paste the content of the `data.txt` file into the newly created `levelX.json` file. Remember to change the `indexLevel` part to `X` in the `levelX.json` file. For example, if you are creating level 22, you need to change it to `var indexLevel = 22;`.
-
-![Contribute Step 5](./assets/images/contribute5.png)
-
-- Switch to the source control tab by selecting the icon as shown below
-- Write a message to let me know what you want to do, for example, `add level 22`
-- Press the `Commit and push` button
-
-![Contribute Step 6](./assets/images/contribute6.png)
-
-If there is a prompt, select `fork repository` to create a copy of the game on your GitHub.
-
-![Contribute Step 7](./assets/images/contribute7.png)
-
-If the next interface appears, simply select `patch-1` and press `Enter` to create a Pull Request.
-
-Finally, create a Pull Request:<br>Access: https://github.com/zukahai/sokoban-3d-game
-
-![Contribute Step 8](./assets/images/contribute8.png)
-
-Select `Compare & pull request`
-
-![Contribute Step 9](./assets/images/contribute9.png)
-
-Finally, select `Create pull request` and wait for a response from me.
-
-#### If you encounter any issues or have trouble following the steps, you can contact me on Facebook: [Phan Đức Hải](https://www.facebook.com/chiatayde/)
-
-## Contributors
+  
+请记住将“levelX.json”文件中的“indexLevel”部分更改为“X”。例如，如果您要创建级别 22，则需要将其更改为“var indexLevel = 22;”
+ 
+## 贡献
 
 Thank you to the following contributors for their contributions to this game:
 
