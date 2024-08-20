@@ -552,9 +552,10 @@ drawHUDHome = () => {
     ctx.fillRect(0, 0, canvasHUD.width, canvasHUD.height),
         ctx.fillStyle = "#ffffff";
     ctx.textAlign = "center";
-    ctx.fillText("SOKOBAN 3D", canvasHUD.width / 2, canvasHUD.height / 2 - 100);
     ctx.font = canvasHUD.width / 30 + 'px MyCustomFont';
-    ctx.fillText("Bấm phím A để bắt đầu", canvasHUD.width / 2, canvasHUD.height / 2 + 100);
+    ctx.fillText("推箱子-3D（英雅版）", canvasHUD.width / 2, canvasHUD.height / 2 - 100);
+    ctx.font = canvasHUD.width / 30 + 'px MyCustomFont';
+    ctx.fillText("按A键开始", canvasHUD.width / 2, canvasHUD.height / 2 + 100);
 }
 drawHUD = () => {
     ctx.font = 30 + 'px MyCustomFont';
@@ -575,21 +576,21 @@ drawHUD = () => {
     else if (!isWin) {
         ctx.textAlign = "center";
         ctx.font = 30 + 'px MyCustomFont';
-        ctx.fillText("Màn chơi " + gameLevel + " / " + NUMBER_OF_LEVEL, canvasHUD.width / 2, 50);
+        ctx.fillText("第 " + gameLevel + " / " + NUMBER_OF_LEVEL +" 关", canvasHUD.width / 2, 50);
         if (!isShowText)
             return;
         ctx.textAlign = "left";
         ctx.font = 20 + 'px MyCustomFont';
         ctx.fillStyle = "#ffffff";
-        ctx.fillText("Số bước: " + nbMoves, 20, 50);
-        ctx.fillText("M - Tắt âm thanh", 20, 90);
-        ctx.fillText("R - Chơi lại", 20, 130);
-        ctx.fillText("N - Màn tiếp theo", 20, 170);
-        ctx.fillText("P - Màn trước đó", 20, 210);
-        ctx.fillStyle = "cyan";
-        ctx.fillText("H - Tạo màn chơi của riêng bạn", 20, 250);
-        ctx.fillStyle = "#ffffff";
-        ctx.fillText("K - Ẩn chữ", 20, 290);
+        ctx.fillText("步数: " + nbMoves, 20, 50);
+       // ctx.fillText("M - 关闭声音", 20, 90);
+        ctx.fillText("R - 重来", 20, 130);
+       // ctx.fillText("N - 下一关", 20, 170);
+       // ctx.fillText("P - 上一关", 20, 210);
+       // ctx.fillStyle = "cyan";
+       // ctx.fillText("H - 创建自己的关卡", 20, 250);
+       // ctx.fillStyle = "#ffffff";
+       // ctx.fillText("K - 隐藏提示文字", 20, 290);
 
 
     }

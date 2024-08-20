@@ -26,7 +26,7 @@ levels[indexLevel] = {
 tuto[indexLevel] = [
     [
         { x: 2, y: -2, z: -6 },
-        "Đây là một loại kích hoạt khác, phải giữ nó được nhấn",
+        "这是另一种类型的触发器，必须按住它",
         3e3,
     ],
 ]

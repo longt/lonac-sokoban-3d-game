@@ -25,12 +25,12 @@ levels[indexLevel] = {
 tuto[indexLevel] = [
     [
         { x: 8, y: 6, z: 0 },
-        "Đây là một nhân bản của bạn.",
+        "这是你的克隆体。",
         3e3,
     ],
     [
         { x: 8, y: 6, z: 0 },
-        "Chuyển đổi giữa các nhân bản bằng phím cách",
+        "使用空格键在克隆之间切换",
         4e3,
     ],
 ]

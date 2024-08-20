@@ -18,5 +18,5 @@ levels[2] = {
 
 // Tutorial for Level 2
 tuto[2] = [
-    [{ x: 12, y: 2, z: 0 }, "Bạn có thể đẩy các thùng", 3e3]
+    [{ x: 12, y: 2, z: 0 }, "继续加油推箱子吧", 3e3]
 ]

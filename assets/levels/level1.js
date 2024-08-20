@@ -18,7 +18,7 @@ levels[1] = {
 }
 
 tuto[1] = [
-    [{ x: 2, y: 2, z: -8 }, "Đây là bạn. Di chuyển bằng các phím mũi tên", 4e3],
-    [{ x: 14, y: 2, z: -8 }, "Cẩn thận với các lỗ", 3e3],
-    [{ x: 22, y: 2, z: -8 }, "Đây là mục tiêu của bạn, lấy quả cầu để thắng", 4e3],
+    [{ x: 2, y: 2, z: -8 }, "用方向键移动", 1e3],
+    [{ x: 14, y: 2, z: -8 }, "小心有洞", 1e3],
+    [{ x: 22, y: 2, z: -8 }, "碰到球体即可获胜", 1e3],
 ]

@@ -482,20 +482,20 @@ class Create {
         }
 
         let tutorial = [
-            "R: Làm mới",
-            "↑: Thêm hàng trên",
-            "↓: Thêm hàng dưới",
-            "←: Thêm cột trái",
-            "→: Thêm cột phải",
-            "Enter: Lưu và chơi thử",
-            "Click: Thay đổi giá trị (0→9)",
-            "P: Đặt, huỷ khối thường",
-            "Q: Đặt, huỷ khối leo",
-            "S: Thêm điểm xuất phát",
-            "K: Thay đổi điểm kết thúc",
-            "B: Đặt, huỷ công tắc thường",
-            "M: Đặt, huỷ công tắc giữ",
-            "H: Lưu file với dữ liệu và data",
+            "R: 刷新",
+            "↑: 在上方添加行",
+            "↓: 在下方添加行",
+            "←: 添加左栏",
+            "→: 添加右栏",
+            "Enter: 保存并尝试一下",
+            "Click: 改变数值（0→9）",
+            "P: 放置和取消普通块",
+            "Q: 放置并摧毁攀爬块",
+            "S: 添加起点",
+            "K: 改变终点",
+            "B: 设置和取消普通开关",
+            "M: 设置、取消保持开关",
+            "H: 保存带有数据和数据的文件",
         ];
 
         this.context.fillStyle = "white";

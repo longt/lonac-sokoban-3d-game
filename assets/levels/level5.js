@@ -23,7 +23,7 @@ levels[indexLevel] = {
 tuto[indexLevel] = [
     [
         { x: 2, y: -2, z: -6 },
-        "Đây là một công tắc, nó thay đổi một cái gì đó trong sân khấu",
+        "这是一个开关",
         3e3,
     ],
 ]

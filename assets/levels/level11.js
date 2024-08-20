@@ -31,7 +31,7 @@ levels[indexLevel] = {
 tuto[indexLevel] = [
     [
         { x: 8, y: -2, z: -8 },
-        "Khối này không thể di chuyển, nhưng có thể leo lên",
+        "该方块无法移动，但可以攀爬",
         4e3,
     ],
 ]

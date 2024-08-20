@@ -43,12 +43,12 @@ levels[indexLevel] = {
 tuto[indexLevel] = [
     [
         { x: 3, y: 1, z: 0 },
-        "Đích là một mê cung",
+        "这是一个迷宫",
         3e3,
     ],
     [
         { x: 70, y: 40, z: 0 },
-        "Đích đến ở góc dưới phải",
+        "目的地位于右下角",
         4e3,
     ],
 ]
