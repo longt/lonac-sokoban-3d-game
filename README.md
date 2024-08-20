@@ -43,7 +43,7 @@ https://github.com/zukahai/sokoban-3d/assets/85035951/bc061f7f-dc4e-4c92-b09d-c8
 
 例如：关卡配置如下
 
-![Create Level 1](./assets/images/create1.png)
+![Create Level 1](./assets/images/create-zh-1.jpg)
 
 当按下 `Enter`后, 将预览关卡:
 
@@ -80,7 +80,7 @@ https://github.com/zukahai/sokoban-3d/assets/85035951/bc061f7f-dc4e-4c92-b09d-c8
 
 按“B”显示以下内容：
 
-![Add Regular Switch](./assets/images/create3.png)
+![Add Regular Switch](./assets/images/create-zh-3.jpg)
 
 单击绿色单元格可在激活开关时更改深度。数字 1 表示按下开关时指定单元格的深度将减少 1。数字-1表示按下开关时指定单元格的深度将减少1。
  
@@ -107,10 +107,7 @@ https://github.com/zukahai/sokoban-3d/assets/85035951/bc061f7f-dc4e-4c92-b09d-c8
  
 ## 贡献
 
-Thank you to the following contributors for their contributions to this game:
+欢迎交流关于推箱子的关卡开发
 
-<center>
-<a href="https://github.com/zukahai/sokoban-3d-game/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=zukahai/sokoban-3d-game" />
-</a>
-</center>
+![二维码](./assets/images/my-qrcode.jpg)
+ 

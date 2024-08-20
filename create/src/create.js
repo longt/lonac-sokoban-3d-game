@@ -579,10 +579,10 @@ class Create {
             this.context.textAlign = "center";
             this.context.fillStyle = "#ffffff";
             if (this.isB == 2) {
-                this.context.fillText("Chọn vị trí ảnh hưởng", this.gameWidth * 0.75 + this.gameWidth * 0.25 / 2, this.gameHeight - 25);
+                this.context.fillText("选择影响位置", this.gameWidth * 0.75 + this.gameWidth * 0.25 / 2, this.gameHeight - 25);
             } else {
                 this.context.fillText(this.vct, this.gameWidth * 0.75 + this.gameWidth * 0.25 / 2, this.gameHeight - this.sizeBlock / 1.5);
-                this.context.fillText("Bấm Z để chọn độ cao", this.gameWidth * 0.75 + this.gameWidth * 0.25 / 2, this.gameHeight - 25);
+                this.context.fillText("按 Z 选择高度", this.gameWidth * 0.75 + this.gameWidth * 0.25 / 2, this.gameHeight - 25);
             }
         }
 
@@ -591,10 +591,10 @@ class Create {
             this.context.textAlign = "center";
             this.context.fillStyle = "#ffffff";
             if (this.isM == 2) {
-                this.context.fillText("Chọn vị trí ảnh hưởng", this.gameWidth * 0.75 + this.gameWidth * 0.25 / 2, this.gameHeight - 25);
+                this.context.fillText("选择影响位置", this.gameWidth * 0.75 + this.gameWidth * 0.25 / 2, this.gameHeight - 25);
             } else {
                 this.context.fillText(this.vct, this.gameWidth * 0.75 + this.gameWidth * 0.25 / 2, this.gameHeight - this.sizeBlock / 1.5);
-                this.context.fillText("Bấm Z để chọn độ cao", this.gameWidth * 0.75 + this.gameWidth * 0.25 / 2, this.gameHeight - 25);
+                this.context.fillText("按 Z 选择高度", this.gameWidth * 0.75 + this.gameWidth * 0.25 / 2, this.gameHeight - 25);
             }
         }
     }
