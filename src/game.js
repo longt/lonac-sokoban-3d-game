@@ -553,7 +553,7 @@ drawHUDHome = () => {
         ctx.fillStyle = "#ffffff";
     ctx.textAlign = "center";
     ctx.font = canvasHUD.width / 30 + 'px MyCustomFont';
-    ctx.fillText("推箱子-3D（英雅版）", canvasHUD.width / 2, canvasHUD.height / 2 - 100);
+    ctx.fillText("推箱子-3D", canvasHUD.width / 2, canvasHUD.height / 2 - 100);
     ctx.font = canvasHUD.width / 30 + 'px MyCustomFont';
     ctx.fillText("按A键开始", canvasHUD.width / 2, canvasHUD.height / 2 + 100);
 }
